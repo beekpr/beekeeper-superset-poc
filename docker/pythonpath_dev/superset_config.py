@@ -111,11 +111,12 @@ SESSION_COOKIE_HTTPONLY = False
 ENABLE_PROXY_FIX = True
 PUBLIC_ROLE_LIKE_GAMMA = True
 WTF_CSRF_ENABLED = False
+GUEST_ROLE_NAME = "Gamma"
 
 CORS_OPTIONS = {
     'supports_credentials': True,
     'allow_headers': ['*'],
-    'resources':['*'],
+    'resources': ['*'],
     'origins': ['*']
 }
 
