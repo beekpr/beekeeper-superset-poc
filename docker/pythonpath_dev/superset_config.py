@@ -101,6 +101,7 @@ FEATURE_FLAGS = {
 
 HTTP_HEADERS = {
     "X-Frame-Options": "ALLOW-FROM *",
+    # "Access-Control-Allow-Origin": "*",
 }
 
 TALISMAN_ENABLED = False

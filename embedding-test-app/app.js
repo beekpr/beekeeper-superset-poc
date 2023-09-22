@@ -32,7 +32,7 @@ async function fetchGuestTokenFromBackend() {
 
      const embedOptions = {
         method: 'POST',
-        url: 'http://localhost:8088/api/v1/security/guest_token',
+        url: 'http://localhost:8088/api/v1/security/guest_token/',
         headers: {
           'Authorization':  'Bearer ' + adminToken,
           'Content-Type': 'application/json',
